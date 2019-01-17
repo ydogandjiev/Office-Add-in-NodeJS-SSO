@@ -12,7 +12,7 @@
           //   "runtimeExecutable": "nodemon", 
             "runtimeExecutable": "${workspaceRoot}\\node_modules\\.bin\\nodemon.cmd", 
             "runtimeArgs": [
-                "--debug=5858"
+                "--inspect=5858"
             ],
             "program": "${workspaceRoot}/dist/server.js",
             "outFiles": [

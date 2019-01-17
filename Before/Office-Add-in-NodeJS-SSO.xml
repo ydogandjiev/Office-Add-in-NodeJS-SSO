@@ -132,11 +132,14 @@
       </bt:LongStrings>
     </Resources>
     <WebApplicationInfo>
-      <Id>{application GUID here}</Id>
-      <Resource>api://localhost:3000/{application_GUID here}</Resource>
+      <Id>5b983aec-2bde-4566-b8f5-576645d2522e</Id>
+      <Resource>api://localhost:3000/5b983aec-2bde-4566-b8f5-576645d2522e</Resource>
       <Scopes>
         <Scope>files.read.all</Scope>
+        <Scope>offline_access</Scope>
+        <Scope>openid</Scope>
         <Scope>profile</Scope>
+        <Scope>user.read</Scope>
       </Scopes>
     </WebApplicationInfo>
   </VersionOverrides>
